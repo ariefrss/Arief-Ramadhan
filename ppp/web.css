@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+a:visited {
+    color: green;
+}
+
+.header {
+    background-color: #FFCC99;
+    padding: 30px;
+    text-align: center;
+    opacity: 0.9;
+    height: 82px;
+}
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+/* Create three equal columns that floats next to each other */
+.col {
+    margin-top:10px;
+    margin-top:10px;
+    float: left;
+    width: 32.5%;
+    
+}
+
+.right {
+    float:right;
+    margin-bottom:10px;
+}
+
+.middle {
+    width: 33%;
+    margin-left:10px;
+    margin-right:10px;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the footer */
+.footer {
+    background-color: #FFCC99;
+    opacity:0.9;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+    /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+    @media only screen and (max-width:1024px) and (min-width:768px) {
+        .left {
+            width: 25%;
+            margin-top:10px;
+        }
+
+        .middle {
+            width:65%;
+            float:right;
+            margin-top:10px;
+            margin-bottom:10px;
+            margin-bottom:10px;
+        }
+
+        .right {
+            width:100%;
+            margin-bottom:px;
+        }
+    }
+
+    @media only screen and (max-width:769px) and (min-width:520px) {
+        .left {
+            width: 100%;
+        }
+
+        .middle {
+            width:100%;
+            float:right;
+            margin-top:10px;
+            margin-bottom:10px;
+        }
+
+        .right {
+            width:100%;
+            margin-bottom:10px;
+        }
+    }
+
+    @media only screen and (max-width:520px) {
+        .left {
+            width: 100%;
+        }
+
+        .middle {
+            width:100%;
+            float:right;
+            margin-top:10px;
+            margin-bottom:30px;
+        }
+
+        .right {
+            width:100%;
+            margin-bottom:10px;
+        }
+::-webkit-input-placeholder { /* For WebKit browsers */
+    color:    #dd3333;
+                font-family:Helvetica Neue;
+                font-weight:bold;
+}
+:-moz-placeholder { /* For Mozilla Firefox 4 to 18 */
+    color:    #dd3333;
+                font-family:Helvetica Neue;
+                font-weight:bold;
+}
+::-moz-placeholder { /* For Mozilla Firefox 19+ */
+    color:    #dd3333;
+                font-family:Helvetica Neue;
+                font-weight:bold;
+}
+:-ms-input-placeholder { /* For Internet Explorer 10+ */
+    color:    #dd3333;
+                font-family:Helvetica Neue;
+                font-weight:bold;
+            }
+
+ 
+ }
+}
